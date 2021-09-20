@@ -20,9 +20,9 @@
                             <items>
                                 <MenuItem mnemonicParsing="false" onAction="#newDocument" text="New" />
                                 <MenuItem mnemonicParsing="false" onAction="#openDocument" text="Open" />
-                                <MenuItem mnemonicParsing="false" text="Save" />
-                                <MenuItem mnemonicParsing="false" text="Save As" />
-                                <MenuItem mnemonicParsing="false" onAction="#exitApplication" text="Close" />
+                                <MenuItem mnemonicParsing="false" onAction="#save" text="Save" />
+                                <MenuItem mnemonicParsing="false" onAction="#saveAs" text="Save As" />
+                                <MenuItem mnemonicParsing="false" onAction="#exitApplication" text="Exit" />
                             </items>
                         </Menu>
                         <Menu mnemonicParsing="false" text="Edit">
